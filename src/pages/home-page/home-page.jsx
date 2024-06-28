@@ -9,7 +9,7 @@ import "./home-page.css";
 
 function HomePage() {
   React.useEffect(() => {
-    document.title = `SAKSAR AROMA HOME COLLECTION`;
+    document.title = `THE HOT`;
   }, []);
   return (
     <>

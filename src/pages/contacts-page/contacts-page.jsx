@@ -93,7 +93,7 @@ function ContactsPage() {
             <br />
             <a
               className="contact_item"
-              href="mailto:saksar_aroma@mail.ru"
+              href="mailto:the_hot@mail.ru"
               target="_blank"
               rel="noreferrer"
             >
