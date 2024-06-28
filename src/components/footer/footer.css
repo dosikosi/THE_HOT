@@ -1,0 +1,145 @@
+footer {
+  width: 100%;
+  padding: 50px;
+  padding-bottom: 40px;
+  background: #ffeade;
+  margin-top: 60px;
+}
+
+.footer_wrapper {
+  width: 1547px;
+  margin: 0 auto;
+}
+
+.footer_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 50px;
+}
+.footer_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer_logo svg {
+  width: 200px;
+}
+
+.footer_nav_list {
+  display: flex;
+  align-items: center;
+}
+.footer_nav_list .footer_nav_menu_item p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.58;
+  transition: all 0.5s ease;
+}
+.footer_nav_list .footer_nav_menu_item p:hover {
+  transition: all 0.5s ease;
+  opacity: 1;
+}
+.footer_nav_list .vertical_line {
+  font-size: 18px;
+  opacity: 0.58;
+}
+
+.footer_links .footer_link_items {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.footer_links div {
+  cursor: pointer;
+}
+.footer_links div:hover p {
+  transition: all 0.5s ease;
+  opacity: 1;
+}
+.footer_links div p {
+  font-weight: 700;
+  font-size: 17px;
+
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.42;
+  transition: all 0.5s ease;
+}
+.footer_links .vertical_line {
+  opacity: 0.42;
+  margin: 0 14px;
+}
+.policy_link a p {
+  font-size: 15px;
+  text-transform: lowercase;
+  text-transform: capitalize;
+}
+.footer_phone_number p {
+  font-family: Montserrat;
+  font-size: 21px !important;
+}
+@media only screen and (max-width: 1750px) {
+  footer {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .footer_wrapper {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .footer_wrapper,
+  .footer_nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_logo {
+    margin-bottom: 20px;
+  }
+  .footer_logo h1 {
+    line-height: 110%;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .footer_nav_list,
+  .footer_links {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .footer_nav_list .vertical_line,
+  .footer_links .vertical_line {
+    display: none;
+  }
+  .footer_nav_list a,
+  .footer_links a {
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer_link_items {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .policy_link p {
+    text-align: center;
+  }
+  footer {
+    padding-top: 30px;
+  }
+  .footer_logo {
+    margin-bottom: 40px;
+  }
+  .footer_logo p {
+    letter-spacing: 1px;
+  }
+}

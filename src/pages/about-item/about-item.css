@@ -1,0 +1,276 @@
+.about_item_wrapper {
+  width: 1547px;
+  margin: 0 auto;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.about_item_content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.about_item_img {
+  width: 588px;
+  height: 783px;
+  overflow: hidden;
+}
+.about_item_img img {
+  width: 100%;
+  transition: all 1s ease;
+}
+
+.about_item_img img:hover {
+  transition: all 1s ease;
+  transform: scale(1.05);
+}
+
+.about_item_type p {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.about_item_name h2 {
+  margin-bottom: 18px;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: Montserrat;
+}
+.about_right_block {
+  width: 55%;
+}
+
+.about_item_description p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #464444;
+  margin: 20px 0 10px;
+}
+.about_item_description span {
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+}
+
+.compound_items p {
+  margin: 0 0;
+}
+
+.diffuzor_notes div p {
+  text-transform: capitalize;
+}
+.about_item_cost p {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 30px;
+  font-family: Montserrat;
+}
+
+.about_add_to_cart button {
+  font-family: "Montserrat";
+  margin-top: 60px;
+  width: 200px;
+  height: 60px;
+  background: #000000;
+  border-radius: 10px;
+
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 156.8%;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  border: none;
+}
+
+.about_add_to_cart button:hover {
+  background: #000000c2;
+  transition: all 0.4s ease;
+}
+
+.carousel_block {
+  width: 100%;
+}
+
+.carousel_block {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.carousel_title h3 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.music_play_stop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.play_music {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.play_music img {
+  width: 100%;
+}
+.stop_music {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.stop_music img {
+  width: 30px;
+  margin: 0 auto;
+  padding-left: 4px;
+}
+
+.about_item_inf .about_diffusors p {
+  font-weight: 700;
+  font-size: 18px;
+  color: #474646;
+  margin-top: 30px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1600px) {
+  .about_item_wrapper {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .about_left_part {
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .about_item_content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about_right_block {
+    width: 100%;
+  }
+  .about_left_part {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .about_item_cost,
+  .about_add_to_cart {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about_item_inf .about_diffusors p {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .about_item_title h1 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .about_item_img {
+    width: 100%;
+    height: auto;
+  }
+  .about_item_img img {
+    width: 100%;
+  }
+  .carousel_title h3 {
+    font-size: 23px;
+    line-height: 25px;
+    margin-bottom: 40px;
+  }
+  .carousel_block {
+    margin-top: 40px;
+  }
+  .about_item_content {
+    padding-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about_item_description p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    margin: 20px 0 10px;
+  }
+  .about_item_description span {
+    font-size: 18px;
+  }
+
+  .about_item_cost p {
+    font-size: 30px;
+    line-height: 43px;
+    margin-top: 30px;
+  }
+  .about_add_to_cart button {
+    font-family: "Montserrat";
+    margin-top: 30px;
+    width: 197px;
+    height: 45px;
+    font-size: 18px;
+    line-height: 100%;
+  }
+  .about_item_inf .about_diffusors p {
+    font-size: 16px;
+  }
+
+  .about_item_type p {
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 14px;
+  }
+
+  .about_item_name h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 416px) {
+  .about_item_wrapper .carousel_block {
+    display: none;
+    visibility: hidden;
+  }
+}

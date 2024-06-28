@@ -1,0 +1,35 @@
+.policy_page_wrapper {
+  width: 100%;
+  padding: 0 20px;
+}
+.policy_title h1 {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.policy_text {
+  padding: 50px 0;
+}
+.policy_text h1 {
+  margin-top: 20px;
+  font-size: 22px;
+}
+.policy_text p {
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 700px) {
+  .policy_page_wrapper {
+    padding: 0 15px;
+  }
+  .policy_title h1 {
+    font-size: 23px;
+  }
+
+  .policy_text h1 {
+    font-size: 18px;
+  }
+  .policy_text p {
+    font-size: 13px;
+  }
+}

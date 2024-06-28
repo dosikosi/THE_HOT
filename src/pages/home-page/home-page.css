@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.header_wrapper {
+  width: 100%;
+  display: flex;
+}
+
+.header_left_blog {
+  width: 46%;
+  overflow: hidden;
+}
+.header_left_blog img {
+  width: 100%;
+  height: 100%;
+  transition: all 1s ease;
+}
+
+.header_left_blog img:hover {
+  transition: all 1s ease;
+  transform: scale(1.05);
+}
+.header_text {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 32px;
+}
+.header_text h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.before_text_line {
+  border: 1px solid #000;
+  background: #000;
+  width: 35%;
+  position: absolute;
+  left: -80px;
+}
+
+.header_right_block {
+  width: 54%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.history_brand {
+  background: #ffffff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-top: 70px;
+}
+
+.history_brand_wrapper {
+  width: 1547px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+.founder_img {
+  width: 40%;
+  margin-right: 30px;
+}
+.founder_img img {
+  width: 100%;
+}
+.history_brand_text {
+  width: 60%;
+}
+.history_brand_text h1 {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 156.8%;
+  color: #000000;
+}
+
+.history_brand_text p {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000000;
+  margin-bottom: 35px;
+}
+
+
+.home_products {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.home_products_wrapper {
+  width: 1547px;
+  margin: 0 auto;
+}
+
+.home_products_title h3 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 156.8%;
+  text-transform: uppercase;
+  color: #6f6f6f;
+  margin-bottom: 26px;
+}
+
+.home_product_items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1650px) {
+  .header_left_blog {
+    width: 55%;
+  }
+  .header_right_block {
+    width: 45%;
+  }
+  .history_brand_wrapper {
+    width: 100%;
+    padding-right: 20px;
+  }
+  .history_brand_text {
+    margin-bottom: 80px;
+  }
+  .home_products_wrapper {
+    width: 100%;
+    padding: 0 30px;
+  }
+  .founder_authograph {
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+  }
+}
+@media only screen and (max-width: 1570px) {
+  .history_brand_text p {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 1460px) {
+  .history_brand_text p {
+    font-size: 21px;
+  }
+}
+@media only screen and (max-width: 1416px) {
+  .founder_img {
+    width: 40%;
+    margin-right: 20px;
+  }
+
+  .history_brand_text p {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1350px) {
+  .founder_img {
+    width: 35%;
+    margin-right: 20px;
+  }
+
+  .history_brand_text p {
+    font-size: 19px;
+  }
+  .founder_authograph {
+    bottom: 0px;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .header_left_blog {
+    width: 55%;
+  }
+  .home_product_items {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .home_product_items a {
+    margin-bottom: 25px;
+  }
+  .home_products_title h3 {
+    text-align: center;
+  }
+  .history_brand_text p {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .header_wrapper {
+    flex-direction: column;
+  }
+  .header_left_blog,
+  .header_right_block {
+    width: 100%;
+  }
+  .header_right_block {
+    padding-bottom: 50px;
+  }
+  .history_brand_text h1 {
+    font-size: 40px;
+  }
+
+  .history_brand_text p {
+    font-size: 16px;
+  }
+  .header_right_block img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .history_brand_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .history_brand_text h1 {
+    text-align: center;
+    margin: 20px;
+  }
+  .founder_img {
+    width: 100%;
+    margin: 0;
+  }
+  .history_brand {
+    padding-top: 0;
+  }
+  .history_brand_text {
+    padding: 0 15px;
+    width: 100%;
+  }
+  .history_brand_text p {
+    font-size: 19px;
+  }
+  .history_brand_wrapper {
+    padding-right: 0px;
+  }
+  .reviews {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .reviewer_name h3 {
+    margin-bottom: 40px;
+  }
+  .reviewer_review p {
+    line-height: 100%;
+  }
+  .about_review p {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .founder_authograph {
+    position: static;
+    margin-bottom: 0;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .founder_authograph img {
+    width: 200px;
+  }
+  .history_brand {
+    padding-top: 0px;
+  }
+  .header_right_block {
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .history_brand_text h1 {
+    margin: 10px 0;
+    font-size: 25px;
+  }
+  .reviewer_name h3 {
+    font-size: 30px;
+    line-height: 100%;
+  }
+
+  .history_brand_text {
+    margin-bottom: 20px;
+  }
+  .history_brand_text p {
+    font-size: 20px;
+  }
+  .header_right_block h1 {
+    font-size: 17px;
+  }
+  .header_text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
